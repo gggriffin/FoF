@@ -1,0 +1,12 @@
+/* COLORS
+Black: #242331
+Orange: #FC7A57
+Purple: #52489C
+White: #FFFFFF
+ */
+
+.header {
+    background-color: #242331;
+    color: #FC7A57;
+    font-family: 'Lacquer', sans-serif;
+}
