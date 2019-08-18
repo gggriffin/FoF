@@ -1,0 +1,22 @@
+{
+  "name": "fof",
+  "version": "1.0.0",
+  "description": "Forest of Fear",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gggriffin/FoF.git"
+  },
+  "author": "gggriffin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gggriffin/FoF/issues"
+  },
+  "homepage": "https://github.com/gggriffin/FoF#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
+}
