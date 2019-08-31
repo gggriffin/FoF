@@ -150,14 +150,14 @@ body {
     font-family: 'IM Fell English', serif;
     margin-top: -10vw;
     margin-left: 2vw;
-    font-size: 1.5em;
+    font-size: 2em;
     max-width: 600px;
     font-weight: 400;
     animation-delay: calc(var(--delay-anim) + var(--time-anim) * 0.25);
 }
 
 .contentDate {
-    font-size: 5em;
+    font-size: 6em;
     float: right;
 }
 @media screen and (max-width: 55em) {
@@ -175,6 +175,27 @@ body {
     }
     .contentText {
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 675px) {
+    .contentDate {
+        float: none;
+        text-align: center;
+    }
+
+    .contentTitle {
+        font-size: 7em;
+    }
+
+    .contentText {
+        margin-top: -8vw;
+        margin-bottom: 0;
+    }
+
+    .contentFixed {
+        position: fixed;
+        z-index: 1;
     }
 }
 
