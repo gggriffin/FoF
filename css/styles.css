@@ -86,7 +86,7 @@ body {
 }
 .contentFixed {
     position: fixed;
-    z-index: 10000;
+    z-index: 1;
     bottom: 0;
     left: 0;
     display: grid;
@@ -178,7 +178,7 @@ body {
     }
 }
 
-@media screen and (max-width: 675px) {
+@media screen and (min-width: 675px) {
     .contentDate {
         float: none;
         text-align: center;
@@ -195,6 +195,30 @@ body {
 
     .contentFixed {
         position: fixed;
+        z-index: 1;
+    }
+}
+
+@media screen and (min-width: 350px) {
+    .contentDate {
+        float: none;
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .contentTitle {
+        font-size: 3em;
+    }
+
+    .contentText {
+        margin-top: -8vw;
+        margin-bottom: 0;
+        font-size: 15px;
+    }
+
+    .contentFixed {
+        position: fixed;
+        font-size: 7px;
         z-index: 1;
     }
 }
