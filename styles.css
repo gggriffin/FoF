@@ -87,7 +87,7 @@ body {
 .contentFixed {
     position: fixed;
     font-size: 7px;
-    top: 0;
+    bottom: 0;
     display: grid;
     grid-template-columns: repeat(2, auto);
     width: 100%;
