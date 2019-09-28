@@ -86,9 +86,9 @@ body {
 }
 .contentFixed {
     position: fixed;
+    font-size: 7px;
     z-index: 1;
     bottom: 0;
-    left: 0;
     display: grid;
     grid-template-columns: repeat(2, auto);
     width: 100%;
@@ -139,8 +139,8 @@ body {
     position: relative;
 }
 .contentTitle {
-    font-size: 10vw;
     font-family: 'Lexend Mega', sans-serif;
+    font-size: 3em;
     animation-delay: calc(var(--delay-anim) + var(--time-anim) * 0.2);
 }
 .contentTitle span {
@@ -148,17 +148,19 @@ body {
 }
 .contentText {
     font-family: 'IM Fell English', serif;
-    margin-top: -10vw;
+    margin-top: -8vw;
+    margin-bottom: 0;
+    font-size: 15px;
     margin-left: 2vw;
-    font-size: 2em;
     max-width: 600px;
     font-weight: 400;
     animation-delay: calc(var(--delay-anim) + var(--time-anim) * 0.25);
 }
 
 .contentDate {
-    font-size: 6em;
-    float: right;
+    float: none;
+    text-align: center;
+    font-size: 50px;
 }
 @media screen and (max-width: 55em) {
     .contentFixed {
@@ -178,7 +180,39 @@ body {
     }
 }
 
-@media screen and (min-width: 675px) {
+@media screen and (min-width: 700px) {
+
+    .contentSection {
+        text-align: center;
+    }
+
+    .contentDate {
+        font-size: 8em;
+q   }
+
+    .contentTitle {
+        font-size: 8vw;
+        margin-top: 10vw;
+        display: inline-block;
+    }
+
+    .contentText {
+        margin-top: 2vw;
+        margin-bottom: 0;
+        font-size: 2em;
+        width: 60vw;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .contentFixed {
+        font-size: 2em;
+    }
+}
+
+
+
+/* @media screen and (min-width: 675px) {
     .contentDate {
         float: none;
         text-align: center;
@@ -196,32 +230,10 @@ body {
     .contentFixed {
         position: fixed;
         z-index: 1;
+        
     }
-}
+} */
 
-@media screen and (min-width: 350px) {
-    .contentDate {
-        float: none;
-        text-align: center;
-        font-size: 50px;
-    }
-
-    .contentTitle {
-        font-size: 3em;
-    }
-
-    .contentText {
-        margin-top: -8vw;
-        margin-bottom: 0;
-        font-size: 15px;
-    }
-
-    .contentFixed {
-        position: fixed;
-        font-size: 7px;
-        z-index: 1;
-    }
-}
 
 /* Glitch styles */
 
