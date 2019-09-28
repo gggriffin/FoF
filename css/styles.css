@@ -87,13 +87,11 @@ body {
 .contentFixed {
     position: fixed;
     font-size: 7px;
-    z-index: 1;
     bottom: 0;
     display: grid;
     grid-template-columns: repeat(2, auto);
     width: 100%;
     max-width: none;
-    min-height: 0;
     padding: 1.5em;
     color: #555;
 }
@@ -180,12 +178,12 @@ body {
     }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 900px) {
 
     .contentSection {
         text-align: center;
     }
-
+    
     .contentDate {
         font-size: 8em;
 q   }
